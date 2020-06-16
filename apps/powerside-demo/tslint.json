@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "powersideNxProject",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "powerside-nx-project",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
