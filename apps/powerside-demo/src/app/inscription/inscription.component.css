@@ -1,0 +1,17 @@
+
+h1 {
+  font-size: 1em
+}
+label span {
+  min-width: 70px;
+  display: inline-block;
+}
+label, select {
+    display: block;
+    margin-bottom: 5px;
+    min-width: 50px;
+}
+
+select {
+  display: inline-block;
+}
