@@ -90,9 +90,7 @@
           "builder": "@nrwl/jest:jest",
           "options": {
             "jestConfig": "apps/powerside-demo/jest.config.js",
-            "tsConfig": "apps/powerside-demo/tsconfig.spec.json",
-            "passWithNoTests": true,
-            "setupFile": "apps/powerside-demo/src/test-setup.ts"
+            "passWithNoTests": true
           }
         }
       }
